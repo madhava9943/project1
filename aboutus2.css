@@ -1,0 +1,56 @@
+/* Set the background color of the page */
+body {
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the heading */
+  h1 {
+    color: #333;
+    font-size: 30px;
+  }
+  
+  /* Add a border and padding to the list */
+  ul {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  /* Style the list items */
+  li {
+    color: #555;
+    font-size: 20px;
+  }
+  
+  /* Add hover effect to the list items */
+  li:hover {
+    background-color: #ddd;
+  }
+  
+  /* Style the button */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  /* Add hover effect to the button */
+  button:hover {
+    background-color: #45a049;
+  }
+  .home-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #ff6600;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .home-button:hover {
+    color: #ff4500;
+  }
+  

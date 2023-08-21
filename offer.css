@@ -1,0 +1,106 @@
+/* Styles for the header and home button */
+.header {
+    background-color:white;
+    font-size: x-large;
+    color:black;
+    font-style:oblique;
+       padding: 30px;
+       border-radius: 0cqi;
+    text-align: center;
+  }
+  
+  .home-button {
+    display: inline-block;
+    padding: 5px;
+    background-color: #007bff;
+    border-radius: 5px;
+  }
+  
+  .home-button img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+  }
+  
+  /* Additional styles for your webpage content */
+  main {
+    padding: 20px;
+    text-align: center;
+  }
+  
+
+/* Apply styles to the offers page */
+
+.offers-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .offer {
+    width: calc(33.33% - 20px);
+    margin-bottom: 30px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .offer:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .offer img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .offer-details {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .offer-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .offer-description {
+    color: #777;
+    margin-bottom: 15px;
+  }
+  
+  .offer-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .offer-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Additional styling for colorful look */
+  
+  .offer:nth-child(2n) {
+    background-color: #fff;
+  }
+  
+  .offer:nth-child(3n) {
+    background-color: #f7f7f7;
+  }
+  
+  .offer:nth-child(4n) {
+    background-color: #f0f0f0;
+  }
+  
