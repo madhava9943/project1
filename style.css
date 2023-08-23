@@ -1,0 +1,216 @@
+body 
+.bg-gradiant{
+  height: 110vh;
+  width: 100%;
+  background-image: linear-gradient(to right,#ff69b4,#ffcc66) ;
+}
+{
+  font-size: 16px;
+  background: linear-gradient(to right yellow,pink);
+}
+
+@media (max-width: 767px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+header {
+  background-color: white; 
+  color: white; 
+  padding: 10px; 
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline; 
+  margin-right: 80px; 
+}
+
+nav a {
+  text-decoration: none; 
+  color: black;
+}
+
+@media (max-width: 767px) {
+  nav a {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  nav a {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1024px) {
+  nav a {
+    font-size: 18px;
+  }
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+
+ .image-container {
+  width: 1350px; 
+  margin: 0px;
+  padding: 0px; 
+  text-align:left; 
+}
+
+
+.image-container img {
+  display: block;
+  width: 1333px;
+  height: 610px;
+  object-fit: cover;
+  overflow: hidden;
+  
+}
+
+.image-container{
+  position: relative;
+  width: 1200px;
+}
+
+.text-box {
+  position: absolute;
+  top: 300px;
+  left: 20px;
+  background-color: rgba(239, 83, 80, 0.5);
+  color: white;
+  width: 50%;
+  padding: 10px;
+  font-family: Arial, sans-serif; /* Add your preferred font(s) here */
+}
+
+
+.bg-gradiant{
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to right,#ff69b4,#ffcc66) ;
+}
+
+{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card{
+  background: white;
+  width: 300px;
+  height: 450px;
+  margin: 20px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius:0px ;
+  border-bottom-left-radius: 40px;
+}
+
+.card-image{
+  background-image:center;
+  height: 250px;
+  width: 250px;
+  background-size: cover;
+   margin-left:auto;
+   margin-right:auto;
+   margin-top: auto;
+   margin-bottom: auto;
+   padding: 5px;
+  border-top-right-radius:40px ;
+  border: top 100px;
+
+}
+
+.food-1{
+  background-image: url("burger.jpg");
+ 
+}
+
+.food-2{
+  background-image: url("pizza\ \(2\).jpg");
+}
+
+.food-3{
+  background-image: url("pasta.jpg");
+}
+
+.card:hover{
+  background-color: rgba(62, 62, 62);
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
+}
+
+.card h4{
+  text-align: center;
+  font-family: trebuchet ms,helvetica,sans-serif;
+  font-display: bold;
+}
+
+.card p{
+  text-align: center;
+  font-family: Arial, sans-serif; 
+}
+
+.pill {
+  width: 9em;
+  height: 3.5em;
+  border-radius: 30em;
+  background-color:#dddddd;
+  font-family: Arial, sans-serif; 
+  font-size: 15px;
+  font-family: inherit;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  z-index: 1;
+  
+}
+
+
+
+/* Add this CSS to style the icon buttons */
+.nav-icons {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+.icon {
+  margin-left: 15px;
+}
+
+/* Rest of your existing CSS code */
+
+/* ... */
